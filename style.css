@@ -1,3 +1,42 @@
-.text-primary{
-  color: blueviolet;
+.container{
+    margin-bottom: 100px;
+}
+.bg-orange{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+/* carosul styles */
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color:#ff136f;
+}
+.btn-buy{
+    background-image: linear-gradient(to bottom,#ff589b 0%,#ff136f 100%);
+    color:#fff;
+    padding: 9px 25px;
+    border: none;
+    border-radius:8px;
+    cursor: pointer;
+}
+/* categorystyles */
+
+.cat1 ,.cat2 ,.cat3 {
+    padding: 20px 30px;
+    border-radius: 5%;
+}
+
+.category .cat1{
+    background-image: linear-gradient(to right,#ffbe0d 0%,#f0d383 100%);
+    
+    color:#fff;
+}
+.category .cat2{
+    background-image: linear-gradient(to left,#ff589b 0%,#ff136f 100%);
+    color:#fff;
+}
+.category .cat3{
+    background-image: linear-gradient(to right,#6e70e0 0%,#4d0ae9 100%);
+    color:#fff;
 }
