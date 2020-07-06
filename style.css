@@ -30,13 +30,36 @@
 .category .cat1{
     background-image: linear-gradient(to right,#ffbe0d 0%,#f0d383 100%);
     
-    color:#fff;
-}
+} 
 .category .cat2{
     background-image: linear-gradient(to left,#ff589b 0%,#ff136f 100%);
-    color:#fff;
+
 }
 .category .cat3{
     background-image: linear-gradient(to right,#6e70e0 0%,#4d0ae9 100%);
+    
+}
+.category h1{
     color:#fff;
+}
+.category img{
+    width:100px;
+}
+/* shoe style */
+.card{
+    border:none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+
+}
+.card-footer{
+    background-color: #fff;
+    border-top:none;
+}
+.contact{
+    height:300px;
+}
+.contact h6{
+  
+    color:gray;
 }
